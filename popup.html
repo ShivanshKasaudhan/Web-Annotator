@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Annotator</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h2>Web Annotator</h2>
+    <div>
+      <label>Select Highlight Color:</label>
+        <div class="color-options">
+          <div class="color" id="yellow"></div>
+          <div class="color" id="green"></div>
+          <div class="color" id="lightblue"></div>
+          <div class="color" id="purple"></div>
+          <div class="color" id="orange"></div>
+          <div class="color" id="cyan"></div>
+          <div class="color" id="red"></div>
+          <div class="color" id="pink"></div>
+        </div>
+    </div>
+    <div>
+      <button id = "startButton">Start Highlighting</button>
+      <button id="saveButton">Save</button>
+      <button id="undoButton">Undo</button>
+    </div>
+    <div>Search Annotations:</div>
+    <div class="searcBox">
+      <input type="text" id="searchInput" placeholder="Enter keyword">
+      <button id="searchButton">Search</button>
+    </div>
+    <div>
+      <button id="exportButton">Export as text file</button>
+    </div>
+    
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
